@@ -32,3 +32,23 @@ header {
 .header-content h2 {
     font-size: 4vmin;
 }
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(255, 0, 132);
+    margin: 10px auto;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: rgb(255, 0, 132);
+    border-radius: 30px;
+    color: whitesmoke;
+}
