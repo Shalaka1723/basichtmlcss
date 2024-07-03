@@ -83,6 +83,14 @@ header {
     color: whitesmoke;
 }
 
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:850px){
     .navbar{
         padding: 0;
@@ -98,7 +106,14 @@ header {
         height: 100vh;
         justify-content: center;
         background: rgb(54, 2, 77);
+        margin-top: -900px;
+        transition: all 0.5s ease;
     }
+
+    .mobile-menu{
+        margin-top: 0px;
+    }
+
     .nav-links li{
         margin: 30px auto;
     }
