@@ -15,12 +15,6 @@ ul{
     list-style-type: none;
 }
 
-.active{
-    color: #fc036b;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
 body, html{
     overflow-x: hidden;
 }
@@ -293,9 +287,31 @@ h4{
     .image-gallery img{
         width: 90%;
     }
-    
+
     .footer{
         padding: 10px;
     }
 }
 
+
+/* ANIMATIONS */
+
+img{
+    transition: transform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.ctn:hover{
+    background-color: #ffbdd8;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+li:hover{
+    cursor: pointer;
+    color: #fc036b;
+    text-decoration-line: underline;
+}
