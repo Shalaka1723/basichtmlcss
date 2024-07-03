@@ -3,12 +3,32 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 
 }
 
-header{
+header {
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/header-bg.png);
+    background-image: url('./images/header-bg.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
 }
