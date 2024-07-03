@@ -89,9 +89,24 @@ header {
     right: 30px;
     width: 40px;
     cursor: pointer;
+    display: none;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(54, 2, 77);
 }
 
 @media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
     .navbar{
         padding: 0;
     }
@@ -112,6 +127,7 @@ header {
 
     .mobile-menu{
         margin-top: 0px;
+        border-bottom-right-radius: 30%;
     }
 
     .nav-links li{
